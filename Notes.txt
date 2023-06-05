@@ -7,7 +7,7 @@ attack-context: change path between server and client dynamicly.
 NS3, Omnet-pp: Network simulator?
 
 Problem: unless dynamicly switch application cannot scale application add capacity. Need to show scenarios where static breaks 
-then show my solution which supports hella more users, it happens under the hood so great.
+then show my solution which supports hella more users, it happens under the hood so great we still keep transparency for users.
 
 GOAL: look at preformance and scalibility, previous config and preformance gigabits per second, then get better preformance in diff config
 ONS.pdf: figure 3
@@ -15,10 +15,9 @@ ONS.pdf: figure 3
 search for benchmarks that stress the network bandwidth, or throughput.
 iper3: application?
 
-
-
-
-
-
-
 https://github.com/parsa-epfl/cloudsuite
+
+
+
+
+
