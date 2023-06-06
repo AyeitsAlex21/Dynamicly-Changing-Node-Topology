@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,9 +986,9 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 60.
+(Font)              scaled to size 20.74pt on input line 59.
 LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF o
-n input line 60.
+n input line 59.
 
 (C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbiolin
 umt-tlf.fd
@@ -996,113 +996,93 @@ File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 60.
+(Font)              scaled to size 20.74pt on input line 59.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 60.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 60.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 16.1pt on input line 60.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 11.4pt on input line 60.
-
-(C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 16.1pt on input line 60.
+(Font)              scaled to size 20.74pt on input line 59.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 60.
+(Font)              scaled to size 14.4pt on input line 59.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 60.
+(Font)              scaled to size 10.95pt on input line 59.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 60.
+(Font)              scaled to size 10.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 60.
-
-(body.tex
-<figures/mouse.pdf, id=38, 151.56625pt x 134.5025pt>
+(Font)              scaled to size 12.0pt on input line 59.
+ (body.tex
+<figures/mouse.pdf, id=50, 151.56625pt x 134.5025pt>
 File: figures/mouse.pdf Graphic file (type pdf)
 <use figures/mouse.pdf>
-Package pdftex.def Info: figures/mouse.pdf  used on input line 6.
+Package pdftex.def Info: figures/mouse.pdf  used on input line 21.
 (pdftex.def)             Requested size: 151.56587pt x 134.50215pt.
 
 
 Package natbib Warning: Citation `floyd1993random' on page 1 undefined on input
- line 13.
+ line 28.
 
 
 Package natbib Warning: Citation `stoica2001chord' on page 1 undefined on input
- line 13.
+ line 28.
 
 )
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[leftcolumn badness]: 1000000 on 14.56804pt
-[rightcolumn badness]: 1000000 on 14.56804pt
-[leftcolumn badness]: 1000000 on 14.56804pt
-[rightcolumn badness]: 1000000 on 14.56804pt
-[leftcolumn badness]: 1000000 on 14.56804pt
-[rightcolumn badness]: 1000000 on 14.56804pt
+
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+[leftcolumn badness]: 1000000 on 39.0922pt
+[rightcolumn badness]: 1000000 on 39.0922pt
+[leftcolumn badness]: 1000000 on 39.0922pt
+[rightcolumn badness]: 1000000 on 39.0922pt
+[leftcolumn badness]: 1000000 on 39.0922pt
+[rightcolumn badness]: 1000000 on 39.0922pt
 - LAST -
-Extra skip:6.98695pt
-Left:494.39996pt/0.11499pt
-Right:487.36pt/0.168pt
-Split: 494.87997pt
-Output:494.87997pt
+Extra skip:0.0pt
+Left:523.39996pt/0.0pt
+Right:517.50215pt/0.0pt
+Split: 524.22606pt
+Output:524.22606pt
 Pageshrink: 0.4pt
 Pagestretch: 4.0pt
-@colht:566.355pt
-FLUSHEND [output]: 494.87997pt
+@colht:542.355pt
+FLUSHEND [output]: 524.22606pt
 FLUSHEND [leftcolumn badness]: 0
-FUSHEND [rightcolumn badness]: 663
-[1.1{C:/Users/alexs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
-alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{
-C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76g
-pa5.enc}
+FUSHEND [rightcolumn badness]: 30
+ [1.1{C:/Users/alexs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users
+/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
+{C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76
+gpa5.enc}
 
 {C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
-77jq.enc}]
+77jq.enc} <./figures/mouse.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 67.
+(Font)              scaled to size 10.0pt on input line 66.
  [2.2
 
- <./figures/mouse.pdf>] (paper.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+] (paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 275FB06EECDBF112C11B41E43492445B;982.
+(rerunfilecheck)             Checksum: 79CB2839A7A7E58D961C9BA47972A7F2;1468.
  ) 
 Here is how much of TeX's memory you used:
- 21174 strings out of 476331
- 345523 string characters out of 5787766
- 1883660 words of memory out of 5000000
- 40894 multiletter control sequences out of 15000+600000
- 609833 words of font info for 195 fonts, out of 8000000 for 9000
+ 21037 strings out of 476331
+ 342380 string characters out of 5787766
+ 1880660 words of memory out of 5000000
+ 40799 multiletter control sequences out of 15000+600000
+ 588426 words of font info for 153 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,11n,131p,1004b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,131p,1198b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nBiolinumT.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /libertine/LinBiolinumTB.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/font
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/alexs/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on paper.pdf (2 pages, 298417 bytes).
+Output written on paper.pdf (2 pages, 307323 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 45138 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 34922 words of extra memory for PDF output out of 35830 (max. 10000000)
 
