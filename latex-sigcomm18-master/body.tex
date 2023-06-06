@@ -18,7 +18,7 @@
 
 \begin{figure}[tp]
 \centering
-\includegraphics{figures/mouse}
+\includegraphics[width=0.5 \textwidth]{figures/switches}
 \caption{\blindtext}
 \end{figure}
 
@@ -30,6 +30,20 @@ And we need some citation here\cite{floyd1993random, stoica2001chord}
 %\Blindtext
 
 \section{System Design}
+
+\indent To test if changing the topology affects the performance of a distributed system, we will test multiple topologies with different client-server setups and then change the topology and compare the performance metrics between them. To accomplish this goal, we will simulate a distributed system on top of an actual topology from The Internet Topology Zoo called AGIS. For the distributed system that is being simulated, we are using the benchmark TPC-H made by the Transaction Process Preformance Council (TPC).
+
+\indent We use the AGIS topology for the simulation to reflect a real-world client-server system. Therefore, for transmitting data across the network, we only consider propagation delay calculated using the haversine distance between the coordinates of each edge of the graph.
+
+\indent The TPC-H benchmark comes with a database generator with business-related queries and data modifications that simulate distributed systems involving data warehousing, business intelligence, decision support systems, and online analytical processing. Therefore, the reason for including TPC-H is to simulate these groups of distributed systems in a distributed environment closely related to those in the real world.
+
+\indent The relevant metrics from TPC-H that will be used are power tests, throughput tests, and queries per hour. The power test measures how fast a single full stream of queries generated for TPC-H can be executed. The throughput test measure how fast multiple steams of queries can be executed. Lastly, the quries per hour convey how many queries can be satisfied over the course of an hour. These measurements are helpful in our study because we can compare the times and queries per hour with our original topology to another to conclude if there are any performance benefits.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/AGIS_ORIG}
+\caption{\blindtext}
+\end{figure}
 
 \subsection{The First Layer}
 
