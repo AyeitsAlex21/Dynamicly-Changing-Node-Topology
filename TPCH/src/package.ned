@@ -1,0 +1,3 @@
+package tpch;
+
+@license(LGPL);

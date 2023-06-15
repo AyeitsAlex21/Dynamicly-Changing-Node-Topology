@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  6 JUN 2023 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  14 JUN 2023 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,14 +789,26 @@ tex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box68
-) (paper.aux)
+) (paper.aux
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 34.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
  34.
-
-(C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
+ (C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 34.
@@ -1015,7 +1027,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 
 pdfTeX warning: pdflatex (file ./figures/switches.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<figures/switches.pdf, id=50, 341.8246pt x 147.57185pt>
+<figures/switches.pdf, id=58, 341.8246pt x 147.57185pt>
 File: figures/switches.pdf Graphic file (type pdf)
 <use figures/switches.pdf>
 Package pdftex.def Info: figures/switches.pdf  used on input line 21.
@@ -1043,7 +1055,7 @@ pa5.enc}
 
 pdfTeX warning: pdflatex (file ./figures/AGIS_ORIG.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<figures/AGIS_ORIG.pdf, id=62, 564.68822pt x 307.94328pt>
+<figures/AGIS_ORIG.pdf, id=70, 564.68822pt x 307.94328pt>
 File: figures/AGIS_ORIG.pdf Graphic file (type pdf)
 <use figures/AGIS_ORIG.pdf>
 Package pdftex.def Info: figures/AGIS_ORIG.pdf  used on input line 44.
@@ -1053,77 +1065,195 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
+
+
+pdfTeX warning: pdflatex (file ./figures/SingleClientOrig.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<figures/SingleClientOrig.pdf, id=71, 482.62018pt x 143.05435pt>
+File: figures/SingleClientOrig.pdf Graphic file (type pdf)
+<use figures/SingleClientOrig.pdf>
+Package pdftex.def Info: figures/SingleClientOrig.pdf  used on input line 54.
+(pdftex.def)             Requested size: 253.14749pt x 75.03697pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figures/SingleClientNew.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<figures/SingleClientNew.pdf, id=72, 609.11035pt x 134.01933pt>
+File: figures/SingleClientNew.pdf Graphic file (type pdf)
+<use figures/SingleClientNew.pdf>
+Package pdftex.def Info: figures/SingleClientNew.pdf  used on input line 60.
+(pdftex.def)             Requested size: 253.14749pt x 55.69878pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 66.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 66.
+(C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Overfull \hbox (32.53218pt too wide) in paragraph at lines 66--71
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/MultClientOrig.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<figures/MultClientOrig.pdf, id=73, 858.32608pt x 358.38878pt>
+File: figures/MultClientOrig.pdf Graphic file (type pdf)
+<use figures/MultClientOrig.pdf>
+Package pdftex.def Info: figures/MultClientOrig.pdf  used on input line 94.
+(pdftex.def)             Requested size: 253.14749pt x 105.69643pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figures/MultClientNew.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<figures/MultClientNew.pdf, id=74, 1038.27339pt x 463.79723pt>
+File: figures/MultClientNew.pdf Graphic file (type pdf)
+<use figures/MultClientNew.pdf>
+Package pdftex.def Info: figures/MultClientNew.pdf  used on input line 100.
+(pdftex.def)             Requested size: 253.14749pt x 113.07576pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+
+Overfull \hbox (32.53218pt too wide) in paragraph at lines 106--111
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/MultServerOrig.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<figures/MultServerOrig.pdf, id=75, 1098.50671pt x 433.68053pt>
+File: figures/MultServerOrig.pdf Graphic file (type pdf)
+<use figures/MultServerOrig.pdf>
+Package pdftex.def Info: figures/MultServerOrig.pdf  used on input line 148.
+(pdftex.def)             Requested size: 253.14749pt x 99.93633pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figures/MultServerNew.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<figures/MultServerNew.pdf, id=76, 1091.73055pt x 426.15137pt>
+File: figures/MultServerNew.pdf Graphic file (type pdf)
+<use figures/MultServerNew.pdf>
+Package pdftex.def Info: figures/MultServerNew.pdf  used on input line 154.
+(pdftex.def)             Requested size: 253.14749pt x 98.81256pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+
+Overfull \hbox (32.53218pt too wide) in paragraph at lines 160--166
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (15.2221pt too wide) in paragraph at lines 185--197
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
-[leftcolumn badness]: 1000000 on 12.00139pt
-[rightcolumn badness]: 1000000 on 12.00139pt
 - LAST -
-Extra skip:38.24362pt
-Left:319.05162pt/2.36pt
-Right:283.0pt/0.168pt
-Split: 315.0258pt
-Output:315.0258pt
-Pageshrink: 0.0pt
-Pagestretch: 0.0pt
+Extra skip:0.0pt
+Left:610.0886pt/2.36pt
+Right:595.08513pt/0.0pt
+Split: 603.58685pt
+Output:603.58685pt
+Pageshrink: 0.2pt
+Pagestretch: 2.0pt
 @colht:622.0pt
-FLUSHEND [output]: 315.0258pt
-FLUSHEND [leftcolumn badness]: 52
-FUSHEND [rightcolumn badness]: 10000
+FLUSHEND [output]: 603.58685pt
+FLUSHEND [leftcolumn badness]: 35
+FUSHEND [rightcolumn badness]: 1
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 66.
-[2.2 <./figures/AGIS_ORIG.pdf>] (paper.aux)
+[2.2 <./figures/AGIS_ORIG.pdf> <./figures/SingleClientOrig.pdf> <./figures/Sing
+leClientNew.pdf> <./figures/MultClientOrig.pdf>]
 
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Text page 3 contains only floats.
 
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: F18EB84ED4ED9F0146725F0D5822A2BD;1442
-(rerunfilecheck)             After:  53AA7A98671BD384DC4E0A6576E3775F;2025.
+[3.3 <./figures/MultClientNew.pdf> <./figures/MultServerOrig.pdf> <./figures/Mu
+ltServerNew.pdf>] (paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: 53AA7A98671BD384DC4E0A6576E3775F;2025.
  ) 
 Here is how much of TeX's memory you used:
- 21053 strings out of 476331
- 342751 string characters out of 5787766
- 1872660 words of memory out of 5000000
- 40807 multiletter control sequences out of 15000+600000
- 588798 words of font info for 155 fonts, out of 8000000 for 9000
+ 21258 strings out of 476331
+ 347746 string characters out of 5787766
+ 1888660 words of memory out of 5000000
+ 40947 multiletter control sequences out of 15000+600000
+ 600534 words of font info for 189 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1198b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1198b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nBiolinumT.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /libertine/LinBiolinumTB.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/font
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/alexs/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on paper.pdf (2 pages, 880663 bytes).
+Output written on paper.pdf (3 pages, 1223007 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 34927 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 41117 words of extra memory for PDF output out of 42996 (max. 10000000)
 

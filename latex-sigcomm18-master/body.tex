@@ -49,11 +49,154 @@ And we need some citation here\cite{floyd1993random, stoica2001chord}
 
 \subsection{One Server One Client Scenario}
 
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/SingleClientOrig}
+\caption{hye}
+\end{figure}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/SingleClientNew}
+\caption{hye}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Server & Old Topology QPH@0.01 & New Topology QPH@0.01 \\ \hline
+Server 0 & 247.2 & 249 \\ \hline
+\end{tabular}
+\caption{Queries per hour at scale factor 0.01 for Server 0 under old and new topologies}
+\label{tab:my_label}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Topology & Average Time (Seconds) \\ \hline
+Old & 3.15 \\ \hline
+New & 3.07 \\ \hline
+\end{tabular}
+\caption{Average time to service all clients under old and new topologies}
+\label{tab:avg_time_all_clients}
+\end{table}
+
+
+
 \subsection{One Server Multi-Client Scenario}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/MultClientOrig}
+\caption{hye}
+\end{figure}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/MultClientNew}
+\caption{hye}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Server & Old Topology QPH@0.01 & New Topology QPH@0.01 \\ \hline
+Server 0 & 318.6 & 333 \\ \hline
+\end{tabular}
+\caption{Queries per hour at scale factor 0.01 for Server 0 under old and new topologies}
+\label{tab:my_label}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Server & Old Topology (s) & New Topology (s) \\ \hline
+Server 0 & 3.15 & 3.07  \\ \hline
+\end{tabular}
+\caption{Average time to service all clients for Server 0 under old and new topologies}
+\label{tab:average_time}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Client Node & Old Topology (s) & New Topology (s) \\ \hline
+Node 2 & 7.74 & 9.22  \\ \hline
+Node 8 & 8.52 & 9.47 \\ \hline
+Node 18 & 10.39 & 9.91 \\ \hline
+Node 24 & 8.72 & 9.76 \\ \hline
+\end{tabular}
+\caption{Average time for each client node to complete its set of queries under old and new topologies}
+\label{tab:avg_time_per_node}
+\end{table}
+
 
 For the first simulation, we consider a 4-client 1-server scenario; each is randomly assigned a geographic location, as shown in FIGURE 3. We first conducted 10 throughput tests, which yielded an average time of BLANK for each client for all of the client's queries to be satisfied by the server and returned to the client nodes. 
 
 \subsection{Multi-Server Multi-Client Scenario}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/MultServerOrig}
+\caption{hye}
+\end{figure}
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=0.5 \textwidth]{figures/MultServerNew}
+\caption{hye}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Server & Old Topology QPH@0.01 & New Topology QPH@0.01 \\ \hline
+Server 0 & 333.6 & 340.2  \\ \hline
+Server 1 & 331.2 & 327 \\ \hline
+\end{tabular}
+\caption{Queries per hour at scale factor 0.01 for each server under old and new topologies}
+\label{tab:my_label}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Server & Old Topology (s) & New Topology (s) \\ \hline
+Server 0 & 10.24 & 8.01  \\ \hline
+Server 1 & 10.29 & 10.22 \\ \hline
+\end{tabular}
+\caption{Average time for each server to fulfill the client's queries under old and new topologies}
+\label{tab:my_label}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Client/Servers Nodes & Old Topology (s) & New Topology (s) \\ \hline
+Client 2 Server 4 & 8.01  & 9.82  \\ \hline
+Client 2 Server 10 & 10.22 & 10.29 \\ \hline
+Client 8 Server 4 & 8.85  & 9.55  \\ \hline
+Client 8 Server 10 & 4.98  & 4.67  \\ \hline
+Client 18 Server 4 & 10.56 & 10.08 \\ \hline
+Client 18 Server 10 & 7.61  & 7.73  \\ \hline
+Client 24 Server 4 & 9.03  & 10.23 \\ \hline
+Client 24 Server 10 & 10.1  & 10.12 \\ \hline
+\end{tabular}
+\caption{Average time for client node to complete its set of queries in old and new topology}
+\label{tab:my_label}
+\end{table}
 
 
 \section{Discussion}
