@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  14 JUN 2023 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.15)  16 JUN 2023 01:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,26 +1024,28 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 59.
  (body.tex
-
-pdfTeX warning: pdflatex (file ./figures/switches.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<figures/switches.pdf, id=58, 341.8246pt x 147.57185pt>
-File: figures/switches.pdf Graphic file (type pdf)
-<use figures/switches.pdf>
-Package pdftex.def Info: figures/switches.pdf  used on input line 21.
-(pdftex.def)             Requested size: 253.14749pt x 109.2915pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 21--22
- [][] 
- []
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `floyd1993random' on page 1 undefined on input
- line 28.
+
+Package natbib Warning: Citation `hall_survey_2021' on page 1 undefined on inpu
+t line 18.
 
 
-Package natbib Warning: Citation `stoica2001chord' on page 1 undefined on input
- line 28.
+Package natbib Warning: Citation `kurose2021computer' on page 1 undefined on in
+put line 18.
+
+
+Package natbib Warning: Citation `nandi2022optical' on page 1 undefined on inpu
+t line 18.
+
+
+Package natbib Warning: Citation `xue2023optical' on page 1 undefined on input 
+line 23.
+
+
+Package natbib Warning: Citation `wen2018dynamic' on page 1 undefined on input 
+line 25.
 
 [1.1{C:/Users/alexs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/
 alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{
@@ -1051,17 +1053,34 @@ C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76g
 pa5.enc}
 
 {C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
-77jq.enc} <./figures/switches.pdf>]
+77jq.enc}]
+
+Package natbib Warning: Citation `singla2012jellyfish' on page 2 undefined on i
+nput line 27.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `lovasoaTPCHsqlite' on page 2 undefined on inp
+ut line 42.
+
+
+Package natbib Warning: Citation `alex21topology' on page 2 undefined on input 
+line 42.
+
+
 
 pdfTeX warning: pdflatex (file ./figures/AGIS_ORIG.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<figures/AGIS_ORIG.pdf, id=70, 564.68822pt x 307.94328pt>
+<figures/AGIS_ORIG.pdf, id=63, 564.68822pt x 307.94328pt>
 File: figures/AGIS_ORIG.pdf Graphic file (type pdf)
 <use figures/AGIS_ORIG.pdf>
-Package pdftex.def Info: figures/AGIS_ORIG.pdf  used on input line 44.
+Package pdftex.def Info: figures/AGIS_ORIG.pdf  used on input line 49.
 (pdftex.def)             Requested size: 253.14749pt x 138.05162pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 44--45
+Overfull \hbox (12.0pt too wide) in paragraph at lines 49--51
  [][] 
  []
 
@@ -1069,13 +1088,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 44--45
 
 pdfTeX warning: pdflatex (file ./figures/SingleClientOrig.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<figures/SingleClientOrig.pdf, id=71, 482.62018pt x 143.05435pt>
+<figures/SingleClientOrig.pdf, id=64, 482.62018pt x 143.05435pt>
 File: figures/SingleClientOrig.pdf Graphic file (type pdf)
 <use figures/SingleClientOrig.pdf>
-Package pdftex.def Info: figures/SingleClientOrig.pdf  used on input line 54.
+Package pdftex.def Info: figures/SingleClientOrig.pdf  used on input line 60.
 (pdftex.def)             Requested size: 253.14749pt x 75.03697pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 54--55
+Overfull \hbox (12.0pt too wide) in paragraph at lines 60--62
  [][] 
  []
 
@@ -1083,51 +1102,49 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 54--55
 
 pdfTeX warning: pdflatex (file ./figures/SingleClientNew.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<figures/SingleClientNew.pdf, id=72, 609.11035pt x 134.01933pt>
+<figures/SingleClientNew.pdf, id=65, 608.94922pt x 133.98389pt>
 File: figures/SingleClientNew.pdf Graphic file (type pdf)
 <use figures/SingleClientNew.pdf>
-Package pdftex.def Info: figures/SingleClientNew.pdf  used on input line 60.
-(pdftex.def)             Requested size: 253.14749pt x 55.69878pt.
+Package pdftex.def Info: figures/SingleClientNew.pdf  used on input line 67.
+(pdftex.def)             Requested size: 253.14749pt x 55.69835pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 60--61
+Overfull \hbox (12.0pt too wide) in paragraph at lines 67--69
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 74.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 66.
+(Font)              scaled to size 7.3pt on input line 74.
 (C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (C:\Users\alexs\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (32.53218pt too wide) in paragraph at lines 66--71
- [][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 99.
+[2.2 <./figures/AGIS_ORIG.pdf> <./figures/SingleClientOrig.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/MultClientOrig.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<figures/MultClientOrig.pdf, id=73, 858.32608pt x 358.38878pt>
+<figures/MultClientOrig.pdf, id=77, 858.32608pt x 358.38878pt>
 File: figures/MultClientOrig.pdf Graphic file (type pdf)
 <use figures/MultClientOrig.pdf>
-Package pdftex.def Info: figures/MultClientOrig.pdf  used on input line 94.
+Package pdftex.def Info: figures/MultClientOrig.pdf  used on input line 112.
 (pdftex.def)             Requested size: 253.14749pt x 105.69643pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 94--95
+Overfull \hbox (12.0pt too wide) in paragraph at lines 112--114
  [][] 
  []
 
@@ -1135,18 +1152,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 94--95
 
 pdfTeX warning: pdflatex (file ./figures/MultClientNew.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<figures/MultClientNew.pdf, id=74, 1038.27339pt x 463.79723pt>
+<figures/MultClientNew.pdf, id=78, 1037.99869pt x 463.67455pt>
 File: figures/MultClientNew.pdf Graphic file (type pdf)
 <use figures/MultClientNew.pdf>
-Package pdftex.def Info: figures/MultClientNew.pdf  used on input line 100.
-(pdftex.def)             Requested size: 253.14749pt x 113.07576pt.
+Package pdftex.def Info: figures/MultClientNew.pdf  used on input line 119.
+(pdftex.def)             Requested size: 253.14749pt x 113.08122pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 100--101
- [][] 
- []
-
-
-Overfull \hbox (32.53218pt too wide) in paragraph at lines 106--111
+Overfull \hbox (12.0pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
@@ -1159,17 +1171,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[3.3 <./figures/SingleClientNew.pdf> <./figures/MultClientOrig.pdf> <./figures/
+MultClientNew.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/MultServerOrig.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<figures/MultServerOrig.pdf, id=75, 1098.50671pt x 433.68053pt>
+<figures/MultServerOrig.pdf, id=97, 1098.50671pt x 433.68053pt>
 File: figures/MultServerOrig.pdf Graphic file (type pdf)
 <use figures/MultServerOrig.pdf>
-Package pdftex.def Info: figures/MultServerOrig.pdf  used on input line 148.
+Package pdftex.def Info: figures/MultServerOrig.pdf  used on input line 181.
 (pdftex.def)             Requested size: 253.14749pt x 99.93633pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 148--149
+Overfull \hbox (12.0pt too wide) in paragraph at lines 181--183
  [][] 
  []
 
@@ -1177,18 +1190,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 148--149
 
 pdfTeX warning: pdflatex (file ./figures/MultServerNew.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<figures/MultServerNew.pdf, id=76, 1091.73055pt x 426.15137pt>
+<figures/MultServerNew.pdf, id=98, 1091.44176pt x 426.0386pt>
 File: figures/MultServerNew.pdf Graphic file (type pdf)
 <use figures/MultServerNew.pdf>
-Package pdftex.def Info: figures/MultServerNew.pdf  used on input line 154.
-(pdftex.def)             Requested size: 253.14749pt x 98.81256pt.
+Package pdftex.def Info: figures/MultServerNew.pdf  used on input line 188.
+(pdftex.def)             Requested size: 253.14749pt x 98.81241pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 154--155
- [][] 
- []
-
-
-Overfull \hbox (32.53218pt too wide) in paragraph at lines 160--166
+Overfull \hbox (12.0pt too wide) in paragraph at lines 188--190
  [][] 
  []
 
@@ -1196,64 +1204,57 @@ Overfull \hbox (32.53218pt too wide) in paragraph at lines 160--166
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (15.2221pt too wide) in paragraph at lines 185--197
+Overfull \hbox (15.2221pt too wide) in paragraph at lines 220--232
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+[4.4])
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
+[leftcolumn badness]: 1000000 on 12.54425pt
+[rightcolumn badness]: 1000000 on 12.54425pt
+[leftcolumn badness]: 1000000 on 12.54425pt
+[rightcolumn badness]: 1000000 on 12.54425pt
 - LAST -
 Extra skip:0.0pt
-Left:610.0886pt/2.36pt
-Right:595.08513pt/0.0pt
-Split: 603.58685pt
-Output:603.58685pt
+Left:514.34871pt/2.305pt
+Right:529.12994pt/0.168pt
+Split: 524.73932pt
+Output:524.73932pt
 Pageshrink: 0.2pt
 Pagestretch: 2.0pt
 @colht:622.0pt
-FLUSHEND [output]: 603.58685pt
-FLUSHEND [leftcolumn badness]: 35
-FUSHEND [rightcolumn badness]: 1
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
-[2.2 <./figures/AGIS_ORIG.pdf> <./figures/SingleClientOrig.pdf> <./figures/Sing
-leClientNew.pdf> <./figures/MultClientOrig.pdf>]
-
-LaTeX Warning: Text page 3 contains only floats.
-
-[3.3 <./figures/MultClientNew.pdf> <./figures/MultServerOrig.pdf> <./figures/Mu
-ltServerNew.pdf>] (paper.aux)
+FLUSHEND [output]: 524.73932pt
+FLUSHEND [leftcolumn badness]: 14
+FUSHEND [rightcolumn badness]: 60
+[5.5 <./figures/MultServerOrig.pdf> <./figures/MultServerNew.pdf>] (paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 53AA7A98671BD384DC4E0A6576E3775F;2025.
+(rerunfilecheck)             Checksum: BA52F5007FC117ACE3F7FDE65ACFFC51;1909.
  ) 
 Here is how much of TeX's memory you used:
- 21258 strings out of 476331
- 347746 string characters out of 5787766
- 1888660 words of memory out of 5000000
- 40947 multiletter control sequences out of 15000+600000
- 600534 words of font info for 189 fonts, out of 8000000 for 9000
+ 21332 strings out of 476331
+ 349577 string characters out of 5787765
+ 1886660 words of memory out of 5000000
+ 40938 multiletter control sequences out of 15000+600000
+ 608090 words of font info for 245 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1198b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,131p,1237b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nBiolinumT.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /libertine/LinBiolinumTB.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX/font
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/alexs/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on paper.pdf (3 pages, 1223007 bytes).
+Output written on paper.pdf (5 pages, 1213735 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
- 41117 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41104 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -15,16 +15,43 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\babel@aux[2]{}
 \@nameuse{bbl@beforestart}
-\citation{floyd1993random,stoica2001chord}
+\citation{hall_survey_2021}
+\citation{kurose2021computer}
+\citation{nandi2022optical}
+\citation{xue2023optical}
+\citation{wen2018dynamic}
 \babel@aux{english}{}
 \@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces hye\relax }}{1}{figure.caption.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Methods of Changing Topologies}{1}{subsection.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Outline}{1}{subsection.1.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}{section.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}System Design}{1}{section.3}\protected@file@percent }
+\citation{singla2012jellyfish}
+\citation{lovasoaTPCHsqlite}
+\citation{alex21topology}
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Design}{2}{section.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces This is a picture containing the original AGIS topology. \relax }}{2}{figure.caption.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces This is the one-server multi-client original topology where the clients are denoted as computers, and the server is shown as a server. Client node 8 is located at the top left and the server node 4 is shown to be in the middle. \relax }}{2}{figure.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Simulations}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}One Server One Client Scenario}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces This is the one-server multi-client new topology where the clients are denoted as computers, and the server is shown as a server. Client node 8 is located at the top left, and the server node 4 is shown to be in the middle. Notably, the topology changed by removing the client's only connection and replacing it with a connection to node 5, reflected in red above. \relax }}{3}{figure.caption.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Queries per hour at scale factor 0.01 for Server node 4 under old and new topologies in the one server one client scenario.\relax }}{3}{table.caption.6}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:my_label}{{1}{3}{Queries per hour at scale factor 0.01 for Server node 4 under old and new topologies in the one server one client scenario.\relax }{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Average time to for the server to service the client under old and new topologies in the one server one client scenario. \relax }}{3}{table.caption.7}\protected@file@percent }
+\newlabel{tab:avg_time_all_clients}{{2}{3}{Average time to for the server to service the client under old and new topologies in the one server one client scenario. \relax }{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces This is the one-server multi-client original topology where the clients are denoted as computers, and the server is shown as a server. Client node 8 is located at the top left, client node 18 is at the bottom right, client node 2 is in the middle right, and client node 24 is at the bottom right. \relax }}{3}{figure.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces This is the one-server multi-client new topology where the clients are denoted as computers, and the server is shown as a server. Client node 8 is located at the top left, client node 18 is at the bottom right, client node 2 is in the middle right, and client node 24 is at the bottom right. The changes are that node 18 has a path to node 5, client node 8 connects to node 5, and lastly, client node 24 has a connection to node 21. All the changes can be seen in red.\relax }}{3}{figure.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}One Server Multi-Client Scenario}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Queries per hour based on all clients at a scale factor of 0.01 for Server node 4 under old and new topologies in the one server multi-client scenario.\relax }}{4}{table.caption.10}\protected@file@percent }
+\newlabel{tab:my_label}{{3}{4}{Queries per hour based on all clients at a scale factor of 0.01 for Server node 4 under old and new topologies in the one server multi-client scenario.\relax }{table.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Average time to service all clients for Server node 4 under old and new topologies in the one server multi-client scenario.\relax }}{4}{table.caption.11}\protected@file@percent }
+\newlabel{tab:average_time}{{4}{4}{Average time to service all clients for Server node 4 under old and new topologies in the one server multi-client scenario.\relax }{table.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Average time for each client node to complete its set of queries under old and new topologies in the one server multi-client scenario.\relax }}{4}{table.caption.12}\protected@file@percent }
+\newlabel{tab:avg_time_per_node}{{5}{4}{Average time for each client node to complete its set of queries under old and new topologies in the one server multi-client scenario.\relax }{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Multi-Server Multi-Client Scenario}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Queries per hour at scale factor 0.01 for each server servicing each client under old and new topologies in the multi-server multi-client scenario.\relax }}{4}{table.caption.15}\protected@file@percent }
+\newlabel{tab:my_label}{{6}{4}{Queries per hour at scale factor 0.01 for each server servicing each client under old and new topologies in the multi-server multi-client scenario.\relax }{table.caption.15}{}}
 \bibstyle{ACM-Reference-Format}
 \bibdata{reference}
 \newlabel{tocindent-1}{0pt}
@@ -32,35 +59,13 @@
 \newlabel{tocindent1}{4.65pt}
 \newlabel{tocindent2}{11.49998pt}
 \newlabel{tocindent3}{0pt}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces hye\relax }}{2}{figure.caption.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces hye\relax }}{2}{figure.caption.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Simulations}{2}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}One Server One Client Scenario}{2}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}One Server Multi-Client Scenario}{2}{subsection.3.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces hye\relax }}{2}{figure.caption.6}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Queries per hour at scale factor 0.01 for Server 0 under old and new topologies\relax }}{2}{table.caption.7}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{tab:my_label}{{1}{2}{Queries per hour at scale factor 0.01 for Server 0 under old and new topologies\relax }{table.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Average time to service all clients under old and new topologies\relax }}{2}{table.caption.8}\protected@file@percent }
-\newlabel{tab:avg_time_all_clients}{{2}{2}{Average time to service all clients under old and new topologies\relax }{table.caption.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces hye\relax }}{2}{figure.caption.9}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Queries per hour at scale factor 0.01 for Server 0 under old and new topologies\relax }}{2}{table.caption.11}\protected@file@percent }
-\newlabel{tab:my_label}{{3}{2}{Queries per hour at scale factor 0.01 for Server 0 under old and new topologies\relax }{table.caption.11}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Average time to service all clients for Server 0 under old and new topologies\relax }}{2}{table.caption.12}\protected@file@percent }
-\newlabel{tab:average_time}{{4}{2}{Average time to service all clients for Server 0 under old and new topologies\relax }{table.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces hye\relax }}{3}{figure.caption.10}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Average time for each client node to complete its set of queries under old and new topologies\relax }}{3}{table.caption.13}\protected@file@percent }
-\newlabel{tab:avg_time_per_node}{{5}{3}{Average time for each client node to complete its set of queries under old and new topologies\relax }{table.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces hye\relax }}{3}{figure.caption.14}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces hye\relax }}{3}{figure.caption.15}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Queries per hour at scale factor 0.01 for each server under old and new topologies\relax }}{3}{table.caption.16}\protected@file@percent }
-\newlabel{tab:my_label}{{6}{3}{Queries per hour at scale factor 0.01 for each server under old and new topologies\relax }{table.caption.16}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Average time for each server to fulfill the client's queries under old and new topologies\relax }}{3}{table.caption.17}\protected@file@percent }
-\newlabel{tab:my_label}{{7}{3}{Average time for each server to fulfill the client's queries under old and new topologies\relax }{table.caption.17}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Average time for client node to complete its set of queries in old and new topology\relax }}{3}{table.caption.18}\protected@file@percent }
-\newlabel{tab:my_label}{{8}{3}{Average time for client node to complete its set of queries in old and new topology\relax }{table.caption.18}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Multi-Server Multi-Client Scenario}{3}{subsection.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{3}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{3}{section.5}\protected@file@percent }
-\newlabel{TotPages}{{3}{3}{}{page.3}{}}
-\gdef \@abspage@last{3}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces This is the multi-server multi-client original topology where the clients are denoted as computers, and the servers are shown as servers. Client node 8 is located at the top left, client node 18 is at the bottom right, client node 2 is in the middle right, and client node 24 is at the bottom right. Then server node 4 is in the middle, and server node 10 is in the upper left. \relax }}{5}{figure.caption.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces This is the multi-server multi-client new topology where the clients are denoted as computers, and the servers are shown as servers. Notably, the topology changed the same way as in fig 5, and new connections that will be used can be seen in red. \relax }}{5}{figure.caption.14}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Average time for each server to fulfill the client's queries under old and new topologies in the multi-server multi-client scenario.\relax }}{5}{table.caption.16}\protected@file@percent }
+\newlabel{tab:my_label}{{7}{5}{Average time for each server to fulfill the client's queries under old and new topologies in the multi-server multi-client scenario.\relax }{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Average time for each client node to complete its set of queries for each server in the old and new topology in the multi-server multi-client scenario.\relax }}{5}{table.caption.17}\protected@file@percent }
+\newlabel{tab:my_label}{{8}{5}{Average time for each client node to complete its set of queries for each server in the old and new topology in the multi-server multi-client scenario.\relax }{table.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}\protected@file@percent }
+\newlabel{TotPages}{{5}{5}{}{page.5}{}}
+\gdef \@abspage@last{5}
