@@ -56,7 +56,6 @@ def main():
     dir = sys.argv[1]
     graphml_files = [f for f in os.listdir(dir) if f.endswith('.graphml')]
 
-    # Draw each graph
     for graphml_file in graphml_files:
         graph = nx.read_graphml(os.path.join(dir, graphml_file))
         colorMap = assign_client_server(graph)

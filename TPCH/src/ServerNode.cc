@@ -268,7 +268,7 @@ void ServerNode::baseLinePowerTest(){
         std::ifstream file(fileName);
 
         if (!file) {
-            std::cerr << "Failed to open file: " << fileName << std::endl;
+            std::cerr << "ERROR: Failed to open file: " << fileName << std::endl;
         }
 
         std::stringstream buffer;
