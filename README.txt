@@ -11,4 +11,4 @@ Credits: https://github.com/lovasoa/TPCH-sqlite for making a TPCH to sqlite data
 
 2. AGIS_to_Ned is where the code for converting the graph.ml file to a ned file is
 
-3. latex-sigcomm18-master/paper.pdf is where the PDF is
+3. latex-sigcomm18-master/paper.pdf is where the PDF is located
