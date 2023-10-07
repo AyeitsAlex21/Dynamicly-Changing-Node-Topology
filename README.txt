@@ -1,3 +1,5 @@
+ACTUAL PAPER IS: paper.pdf
+
 Credits: https://github.com/lovasoa/TPCH-sqlite for making a TPCH to sqlite database converter
 
 1.The TPCH folder is where the actual OMENet++ simulation is
